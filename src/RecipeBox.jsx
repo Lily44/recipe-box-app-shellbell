@@ -209,7 +209,7 @@ const FONT_STYLES = `
 
 const uid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
 
-const API_URL = "https://recipe-box-app-shellbell.lsolson.workers.dev";
+const API_URL = "https://recipe-box-shellbell.lsolson.workers.dev";
 
 async function uploadPhoto(blob) {
   const formData = new FormData();
